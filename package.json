@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "parcel build src/index.html",
-    "test": "jest --watch"
+    "dev": "npx parcel src/index.html"
   },
   "keywords": [],
   "author": "",
