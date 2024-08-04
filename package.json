@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "npx parcel src/index.html"
+    "build": "parcel build",
+    "dev": "npx parcel src/index.html",
+    "test": "npx jest"
+  },
+  "jest": {
+    "testEnvironment": "jest-environment-jsdom"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +19,7 @@
     "@babel/preset-env": "^7.24.8",
     "babel-jest": "^29.7.0",
     "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
     "parcel": "^2.12.0",
     "postcss": "^8.4.40",
     "tailwindcss": "^3.4.7"
