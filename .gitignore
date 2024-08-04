@@ -17,7 +17,6 @@ tmp
 
 .DS_Store
 npm-debug.log*
-package-lock.json
 sourcemap-info.json
 yarn-debug.log*
 yarn-error.log*

@@ -1,3 +1,38 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+header{
+    background-color: #CFCAB5;
+    padding: 10px 16px;
+
+}
+footer{
+    background-color: #CFCAB5;
+    padding: 10px 16px;
+
+}
+body{
+    background-color: #1E2F23;
+}
+.navButton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #519872; 
+    color: #0D090A; 
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+.navButton:hover {
+    background-color: #3e7f65;
+    color: #ffffff;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
